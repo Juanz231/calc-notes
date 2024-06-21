@@ -3,14 +3,14 @@
   "version": "0.0.0",
   "identifier": "com.tauri.dev",
   "build": {
-    "frontendDist": "../src"
+    "frontendDist": "../src/dist"
   },
   "app": {
     "withGlobalTauri": true,
     "windows": [
       {
         "title": "calc-notes",
-        "width": 800,
+        "width": 900,
         "height": 600
       }
     ],
